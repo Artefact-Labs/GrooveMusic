@@ -1,0 +1,23 @@
+
+Item{ 
+ 
+ 
+  id: "NaN",
+  anchors.right: 0,
+  anchors.left: 0,
+  anchors.top: 0,
+  anchors.bottom: 0,
+  child: [
+    Object{
+     
+      id: "page111111",
+      name: "page1",
+      "onClo": "<#add#>",
+      anchors.right: 0,
+      anchors.left: 0,
+      anchors.top: 0,
+      anchors.bottom: 0
+    }
+  ]
+}, 
+  

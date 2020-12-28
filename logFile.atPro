@@ -1,0 +1,388 @@
+{
+ "type": "folder",
+ "name": "Groove Music",
+ "iconA": "folderA",
+ "version": "",
+ "description": "",
+ "author": "aaa",
+ "productName": "",
+ "appId": "com.groove.app",
+ "target": "",
+ "allowToChangeInstallationDirectory": "",
+ "oneClick": "",
+ "mac": {
+  "icon": ""
+ },
+ "win": {
+  "icon": ""
+ },
+ "linux": {
+  "icon": ""
+ },
+ "child": [
+  {
+   "type": "folder",
+   "name": "At",
+   "iconA": "folderB",
+   "col": "#F9B31E",
+   "child": [
+    {
+     "type": "file",
+     "name": "main.at",
+     "iconA": "at"
+    },
+    {
+     "type": "file",
+     "name": "page1.at",
+     "iconA": "at"
+    },
+    {
+     "type": "folder",
+     "name": "items",
+     "iconA": "folderC",
+     "col": "pink",
+     "child": [
+      {
+       "type": "file",
+       "name": "AlbumCart.at",
+       "iconA": "at"
+      },
+      {
+       "type": "file",
+       "name": "RBar.at",
+       "iconA": "at"
+      },
+      {
+       "type": "file",
+       "name": "bottomControlBar.at",
+       "iconA": "at"
+      },
+      {
+       "type": "file",
+       "name": "CircularArtist.at",
+       "iconA": "at"
+      }
+     ]
+    },
+    {
+     "type": "folder",
+     "name": "pages",
+     "iconA": "folderC",
+     "col": "pink",
+     "child": [
+      {
+       "type": "file",
+       "name": "page2.at",
+       "iconA": "at"
+      },
+      {
+       "type": "file",
+       "name": "page2Sub1.at",
+       "iconA": "at"
+      },
+      {
+       "type": "file",
+       "name": "page2Sub2.at",
+       "iconA": "at"
+      },
+      {
+       "type": "file",
+       "name": "page2Sub3.at",
+       "iconA": "at"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "folder",
+   "name": "Js",
+   "iconA": "folderB",
+   "child": [
+    {
+     "type": "file",
+     "name": "main.js",
+     "iconA": "js"
+    },
+    {
+     "type": "file",
+     "name": "BD.json",
+     "iconA": "json"
+    }
+   ]
+  },
+  {
+   "type": "folder",
+   "name": "Style",
+   "iconA": "folderB",
+   "child": [
+    {
+     "type": "file",
+     "name": "main.css",
+     "iconA": "css"
+    }
+   ]
+  },
+  {
+   "type": "folder",
+   "name": "Resources",
+   "iconA": "folderC",
+   "col": "pink",
+   "child": [
+    {
+     "type": "file",
+     "name": "cover.jpg",
+     "iconA": "jpg"
+    }
+   ]
+  },
+  {
+   "type": "folder",
+   "name": "Structure",
+   "iconA": "folderD",
+   "col": "green",
+   "deco": "pjStruc",
+   "child": [
+    {
+     "type": "file",
+     "name": "Router.art",
+     "child": []
+    },
+    {
+     "type": "file",
+     "name": "Adder.aat",
+     "child": []
+    }
+   ]
+  },
+  {
+   "type": "folder",
+   "name": "Version",
+   "iconA": "folderD",
+   "deco": "version",
+   "child": [
+    {
+     "type": "folder",
+     "name": "Windows",
+     "iconA": "folderE",
+     "deco": "windowsOS",
+     "child": [
+      {
+       "type": "folder",
+       "name": "At",
+       "iconA": "folderB",
+       "col": "#F9B31E",
+       "child": []
+      },
+      {
+       "type": "folder",
+       "name": "Js",
+       "iconA": "folderB",
+       "child": []
+      },
+      {
+       "type": "folder",
+       "name": "Style",
+       "iconA": "folderB",
+       "child": []
+      }
+     ]
+    },
+    {
+     "type": "folder",
+     "name": "Ubuntu",
+     "iconA": "folderE",
+     "deco": "ubuntuOs",
+     "child": [
+      {
+       "type": "folder",
+       "name": "At",
+       "iconA": "folderB",
+       "col": "#F9B31E",
+       "child": []
+      },
+      {
+       "type": "folder",
+       "name": "Js",
+       "iconA": "folderB",
+       "child": []
+      },
+      {
+       "type": "folder",
+       "name": "Style",
+       "iconA": "folderB",
+       "child": []
+      }
+     ]
+    },
+    {
+     "type": "folder",
+     "name": "MacOs",
+     "iconA": "folderE",
+     "deco": "appelOS",
+     "child": [
+      {
+       "type": "folder",
+       "name": "At",
+       "iconA": "folderB",
+       "col": "#F9B31E",
+       "child": []
+      },
+      {
+       "type": "folder",
+       "name": "Js",
+       "iconA": "folderB",
+       "child": []
+      },
+      {
+       "type": "folder",
+       "name": "Style",
+       "iconA": "folderB",
+       "child": []
+      }
+     ]
+    },
+    {
+     "type": "folder",
+     "name": "Android",
+     "iconA": "folderE",
+     "deco": "androidOS",
+     "child": [
+      {
+       "type": "folder",
+       "name": "At",
+       "iconA": "folderB",
+       "col": "#F9B31E",
+       "child": []
+      },
+      {
+       "type": "folder",
+       "name": "Js",
+       "iconA": "folderB",
+       "child": []
+      },
+      {
+       "type": "folder",
+       "name": "Style",
+       "iconA": "folderB",
+       "child": []
+      }
+     ]
+    },
+    {
+     "type": "folder",
+     "name": "i-Phone",
+     "iconA": "folderE",
+     "deco": "ios",
+     "child": [
+      {
+       "type": "folder",
+       "name": "At",
+       "iconA": "folderB",
+       "col": "#F9B31E",
+       "child": []
+      },
+      {
+       "type": "folder",
+       "name": "Js",
+       "iconA": "folderB",
+       "child": []
+      },
+      {
+       "type": "folder",
+       "name": "Style",
+       "iconA": "folderB",
+       "child": []
+      }
+     ]
+    },
+    {
+     "type": "folder",
+     "name": "Windows-Phone",
+     "iconA": "folderE",
+     "deco": "windowsPhone",
+     "child": [
+      {
+       "type": "folder",
+       "name": "At",
+       "iconA": "folderB",
+       "col": "#F9B31E",
+       "child": []
+      },
+      {
+       "type": "folder",
+       "name": "Js",
+       "iconA": "folderB",
+       "child": []
+      },
+      {
+       "type": "folder",
+       "name": "Style",
+       "iconA": "folderB",
+       "child": []
+      }
+     ]
+    },
+    {
+     "type": "folder",
+     "name": "Web",
+     "iconA": "folderE",
+     "deco": "browser",
+     "child": [
+      {
+       "type": "folder",
+       "name": "At",
+       "iconA": "folderB",
+       "col": "#F9B31E",
+       "child": []
+      },
+      {
+       "type": "folder",
+       "name": "Js",
+       "iconA": "folderB",
+       "child": []
+      },
+      {
+       "type": "folder",
+       "name": "Style",
+       "iconA": "folderB",
+       "child": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "designState": {
+  "AlbumCart_at": {
+   "height": 306
+  },
+  "page1_at": {
+   "height": 431
+  },
+  "RBar_at": {
+   "height": 538
+  },
+  "main_at": {
+   "height": 636
+  },
+  "bottomControlBar_at": {
+   "height": 109
+  },
+  "page2_at": {
+   "height": 431
+  },
+  "page2Sub1_at": {
+   "height": 431
+  },
+  "CircularArtist_at": {
+   "height": 300
+  },
+  "page2Sub2_at": {
+   "height": 431
+  },
+  "page2Sub3_at": {
+   "height": 431
+  }
+ }
+}

@@ -1,0 +1,63 @@
+
+Item{ 
+ 
+ 
+  id: "NaN",
+  anchors.right: 0,
+  anchors.left: 0,
+  anchors.top: 0,
+  anchors.bottom: 0,
+  child: [
+    Card{
+     
+      id: "cardNaN11111122222",
+      anchors.right: 0,
+      anchors.left: 0,
+      anchors.top: 0,
+      anchors.bottom: 70,
+      child: [
+        Image{
+         
+          id: "imagecardNaN11",
+          anchors.right: 0,
+          anchors.left: 0,
+          anchors.top: 0,
+          anchors.bottom: 0,
+          source: "<#img#>"
+        }
+      ]
+    },
+    Column{
+     
+      id: "columnNaN3",
+      anchors.right: 0,
+      anchors.left: 0,
+      anchors.bottom: 0,
+      child: [
+        Text{
+         
+          id: "textcolumnNaN31",
+          width: "auto",
+          height: "auto",
+          value: "<#titre#>",
+          fontSize: 21,
+          anchors.left: 0,
+          anchors.right: 0
+        },
+        Text{
+         
+          id: "textcolumnNaN33",
+          width: 100,
+          height: "auto",
+          value: "<#artist#>",
+          anchors.left: 0,
+          anchors.right: 0,
+          fontSize: 13
+        }
+      ],
+      height: 56,
+      spacing: "space-between"
+    }
+  ]
+}, 
+  

@@ -1,0 +1,17 @@
+Data panelWidth = 320
+Data full = true
+
+Method minimise() {
+
+	if(this.full){
+		this.panelWidth = 50
+		this.full = false
+	}else {
+		this.panelWidth = 320
+		this.full = true
+	}
+}
+
+BeforeCreate { 
+	console.log("")
+}

@@ -1,0 +1,9 @@
+Property Array playlist
+
+Data current = 0
+Data modeId = 0
+Property Boolean minimised = true
+
+Property Function minim
+
+

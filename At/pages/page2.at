@@ -1,0 +1,71 @@
+
+Rectangle{ 
+ 
+ 
+  id: "NaN",
+  color: "white",
+  anchors.right: 0,
+  anchors.left: 0,
+  anchors.top: 0,
+  anchors.bottom: 0,
+  child: [
+    AppBar{
+     
+      id: "tabnavigationNaN3",
+      anchors.right: 0,
+      anchors.left: 0,
+      anchors.top: 0,
+      anchors.bottom: 0,
+      color: "white",
+      sliderColor: "#5fabf1",
+      tabsTitle: [
+        "Songs",
+        "Artists",
+        "Albums"
+      ],
+      rightAlign: false,
+      elevation: 10,
+      model: "<#tabModel#>",
+      child: [
+        Object{
+         
+          id: "page2sub1tabnavigationNaN31",
+          width: 100,
+          height: "auto",
+          x: 0,
+          name: "page2Sub1",
+          anchors.right: 10,
+          anchors.left: 10,
+          anchors.top: 0,
+          y: 0
+        },
+        Object{
+         
+          id: "page2sub2tabnavigationNaN33",
+          width: 100,
+          height: "auto",
+          x: 0,
+          y: 0,
+          name: "page2Sub2",
+          anchors.right: 0,
+          anchors.left: 0,
+          anchors.top: 0
+        },
+        Object{
+         
+          id: "page2sub3tabnavigationNaN35",
+          width: 100,
+          height: "auto",
+          x: 0,
+          y: 0,
+          name: "page2Sub3",
+          anchors.right: 0,
+          anchors.left: 0,
+          anchors.top: 0
+        }
+      ],
+      title: "My musics"
+    }
+  ]
+}, 
+  

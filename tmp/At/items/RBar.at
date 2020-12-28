@@ -1,0 +1,530 @@
+
+Rectangle{ 
+ 
+ 
+  id: "NaN",
+  color: "#ebe5e5",
+  anchors.right: 0,
+  anchors.left: 0,
+  anchors.top: 0,
+  anchors.bottom: 0,
+  child: [
+    Column{
+     
+      id: "columnNaN1",
+      anchors.right: 4,
+      anchors.left: 4,
+      anchors.top: 4,
+      anchors.bottom: 110,
+      child: [
+        Item{
+         
+          id: "itemcolumnNaN11",
+          width: 100,
+          height: 50,
+          anchors.right: 0,
+          anchors.left: 0,
+          child: [
+            Row{
+             
+              id: "rowitemcolumnNaN111",
+              anchors.right: 0,
+              anchors.left: 0,
+              anchors.top: 0,
+              anchors.bottom: 0,
+              child: [
+                Icon{
+                 
+                  id: "iconrowitemcolumnNaN1111",
+                  width: 50,
+                  height: 50,
+                  iconName: "ion-ios-arrow-round-back",
+                  size: 25
+                },
+                Text{
+                 
+                  id: "textrowitemcolumnNaN1113",
+                  width: "auto",
+                  height: "auto",
+                  value: "Groove Music",
+                  anchors.top: 0,
+                  anchors.bottom: 0,
+                  verticalAlign: "center",
+                  modelIf: "<#minimised#>"
+                }
+              ]
+            }
+          ]
+        },
+        Item{
+         
+          id: "itemcolumnNaN1122222",
+          width: 100,
+          height: 50,
+          anchors.right: 0,
+          anchors.left: 0,
+          child: [
+            Row{
+             
+              id: "rowitemcolumnNaN111",
+              anchors.right: 0,
+              anchors.left: 0,
+              anchors.top: 0,
+              anchors.bottom: 0,
+              child: [
+                Icon{
+                 
+                  id: "iconrowitemcolumnNaN1111",
+                  width: 50,
+                  height: 50,
+                  iconName: "ion-ios-menu",
+                  size: 25
+                }
+              ]
+            },
+            MouseArea{
+             
+              id: "mouseareaitemcolumnNaN11222223",
+              anchors.right: 0,
+              anchors.left: 0,
+              anchors.top: 0,
+              anchors.bottom: 0,
+              onClicked: "<#minim#>",
+              cursor: "pointer"
+            }
+          ]
+        },
+        Item{
+         
+          id: "itemcolumnNaN1133333",
+          width: 100,
+          height: 58,
+          anchors.right: 0,
+          anchors.left: 0,
+          child: [
+            TextField{
+             
+              id: "textfielditemcolumnNaN11333331",
+              mode: "solo",
+              anchors.right: 8,
+              anchors.left: 8,
+              anchors.top: 5,
+              anchors.bottom: 5,
+              appendIcon: "ion-ios-search",
+              placeholder: "Search",
+              label: " "
+            }
+          ],
+          anchors.bottom: 0
+        },
+        Item{
+         
+          id: "itemcolumnNaN1144444",
+          width: 100,
+          height: 50,
+          anchors.right: 0,
+          anchors.left: 0,
+          child: [
+            Row{
+             
+              id: "rowitemcolumnNaN111",
+              anchors.right: 0,
+              anchors.left: 0,
+              anchors.top: 0,
+              anchors.bottom: 0,
+              child: [
+                Rectangle{
+                 
+                  id: "rectanglerowitemcolumnNaN1115",
+                  width: 5,
+                  height: 100,
+                  anchors.top: 0,
+                  anchors.bottom: 0,
+                  color: "#3a8ce3",
+                  modelIf: "<#current == 0#>"
+                },
+                Icon{
+                 
+                  id: "iconrowitemcolumnNaN1111",
+                  width: 50,
+                  height: 50,
+                  iconName: "ion-ios-musical-notes",
+                  size: 25
+                },
+                Text{
+                 
+                  id: "textrowitemcolumnNaN1113",
+                  width: "auto",
+                  height: "auto",
+                  value: "My music",
+                  anchors.top: 0,
+                  anchors.bottom: 0,
+                  verticalAlign: "center",
+                  fontSize: 12,
+                  modelIf: "<#minimised#>"
+                }
+              ]
+            },
+            MouseArea{
+             
+              id: "mouseareaitemcolumnNaN11444443",
+              onClicked: "<#current = 0#>",
+              anchors.right: 0,
+              anchors.left: 0,
+              anchors.top: 0,
+              anchors.bottom: 0
+            }
+          ]
+        },
+        Item{
+         
+          id: "itemcolumnNaN114444455555",
+          width: 100,
+          height: 50,
+          anchors.right: 0,
+          anchors.left: 0,
+          child: [
+            Row{
+             
+              id: "rowitemcolumnNaN111",
+              anchors.right: 0,
+              anchors.left: 0,
+              anchors.top: 0,
+              anchors.bottom: 0,
+              child: [
+                Rectangle{
+                 
+                  id: "rectanglerowitemcolumnNaN1115",
+                  width: 5,
+                  height: 100,
+                  anchors.top: 0,
+                  anchors.bottom: 0,
+                  color: "#3a8ce3",
+                  modelIf: "<#current == 1#>"
+                },
+                Icon{
+                 
+                  id: "iconrowitemcolumnNaN1111",
+                  width: 50,
+                  height: 50,
+                  iconName: "ion-md-time",
+                  size: 25
+                },
+                Text{
+                 
+                  id: "textrowitemcolumnNaN1113",
+                  width: "auto",
+                  height: "auto",
+                  value: "Recent plays",
+                  anchors.top: 0,
+                  anchors.bottom: 0,
+                  verticalAlign: "center",
+                  fontSize: 12,
+                  modelIf: "<#minimised#>"
+                }
+              ]
+            },
+            MouseArea{
+             
+              id: "mouseareaitemcolumnNaN1144444322222",
+              onClicked: "<#current = 1#>",
+              anchors.right: 0,
+              anchors.left: 0,
+              anchors.top: 0,
+              anchors.bottom: 0
+            }
+          ]
+        },
+        Item{
+         
+          id: "itemcolumnNaN114444466666",
+          width: 100,
+          height: 50,
+          anchors.right: 0,
+          anchors.left: 0,
+          child: [
+            Row{
+             
+              id: "rowitemcolumnNaN111",
+              anchors.right: 0,
+              anchors.left: 0,
+              anchors.top: 0,
+              anchors.bottom: 0,
+              child: [
+                Rectangle{
+                 
+                  id: "rectanglerowitemcolumnNaN1115",
+                  width: 5,
+                  height: 100,
+                  anchors.top: 0,
+                  anchors.bottom: 0,
+                  color: "#3a8ce3",
+                  modelIf: "<#current == 2#>"
+                },
+                Icon{
+                 
+                  id: "iconrowitemcolumnNaN1111",
+                  width: 50,
+                  height: 50,
+                  iconName: "ion-ios-pulse",
+                  size: 25
+                },
+                Text{
+                 
+                  id: "textrowitemcolumnNaN1113",
+                  width: "auto",
+                  height: "auto",
+                  value: "Now playing",
+                  anchors.top: 0,
+                  anchors.bottom: 0,
+                  verticalAlign: "center",
+                  fontSize: 12,
+                  modelIf: "<#minimised#>"
+                }
+              ]
+            },
+            MouseArea{
+             
+              id: "mouseareaitemcolumnNaN1144444322222",
+              onClicked: "<#current = 2#>",
+              anchors.right: 0,
+              anchors.left: 0,
+              anchors.top: 0,
+              anchors.bottom: 0
+            }
+          ]
+        },
+        Rectangle{
+         
+          id: "rectanglecolumnNaN113",
+          width: 100,
+          height: 1,
+          anchors.left: 0,
+          anchors.right: 0,
+          color: "#a5a5a5"
+        },
+        Item{
+         
+          id: "itemcolumnNaN11444446666688888",
+          width: 100,
+          height: 50,
+          anchors.right: 0,
+          anchors.left: 0,
+          child: [
+            Row{
+             
+              id: "rowitemcolumnNaN111",
+              anchors.right: 50,
+              anchors.left: 0,
+              anchors.top: 0,
+              anchors.bottom: 0,
+              child: [
+                Icon{
+                 
+                  id: "iconrowitemcolumnNaN1111",
+                  width: 50,
+                  height: 50,
+                  iconName: "ion-ios-list",
+                  size: 25
+                },
+                Text{
+                 
+                  id: "textrowitemcolumnNaN1113",
+                  width: "auto",
+                  height: "auto",
+                  value: "Playlists",
+                  anchors.top: 0,
+                  anchors.bottom: 0,
+                  verticalAlign: "center",
+                  fontSize: 12
+                }
+              ],
+              modelIf: "<#minimised#>"
+            },
+            Icon{
+             
+              id: "iconrowitemcolumnNaN11114444422222",
+              width: 50,
+              height: 50,
+              anchors.right: 0,
+              iconName: "ion-ios-add",
+              size: 25
+            }
+          ]
+        },
+        Item{
+         
+          id: "itemcolumnNaN11444445555599999",
+          width: 100,
+          height: 50,
+          anchors.right: 0,
+          anchors.left: 0,
+          child: [
+            Row{
+             
+              id: "rowitemcolumnNaN111",
+              anchors.right: 0,
+              anchors.left: 0,
+              anchors.top: 0,
+              anchors.bottom: 0,
+              child: [
+                Icon{
+                 
+                  id: "iconrowitemcolumnNaN1111",
+                  width: 50,
+                  height: 50,
+                  iconName: "ion-ios-headset",
+                  size: 25
+                },
+                Text{
+                 
+                  id: "textrowitemcolumnNaN1113",
+                  width: "auto",
+                  height: 0,
+                  value: "<#item.name#>",
+                  anchors.top: 0,
+                  anchors.bottom: 0,
+                  verticalAlign: "center",
+                  fontSize: 12,
+                  modelIf: "<#minimised#>"
+                }
+              ]
+            }
+          ],
+          modelFor: "playlist"
+        }
+      ]
+    },
+    Column{
+     
+      id: "columnNaN5",
+      height: "auto",
+      anchors.left: 0,
+      anchors.right: 0,
+      anchors.bottom: 10,
+      child: [
+        Rectangle{
+         
+          id: "rectanglecolumnNaN51",
+          width: 100,
+          height: 1,
+          anchors.left: 0,
+          anchors.right: 0,
+          color: "#a5a5a5"
+        },
+        Item{
+         
+          id: "itemcolumnNaN114444455555999991111122222",
+          height: 50,
+          anchors.right: 0,
+          anchors.left: 0,
+          child: [
+            Row{
+             
+              id: "rowitemcolumnNaN111",
+              anchors.right: 50,
+              anchors.left: 0,
+              anchors.top: 0,
+              anchors.bottom: 0,
+              child: [
+                Item{
+                 
+                  id: "itemrowitemcolumnNaN1115",
+                  width: 50,
+                  height: 50,
+                  child: [
+                    Image{
+                     
+                      id: "imagerowitemcolumnNaN111311111",
+                      width: 26,
+                      height: 26,
+                      source: "Resources/cover.jpg",
+                      anchors.verticalCenter: 0,
+                      anchors.horizontalCenter: 0,
+                      radius: 13
+                    }
+                  ]
+                },
+                Text{
+                 
+                  id: "textrowitemcolumnNaN1113",
+                  width: "auto",
+                  height: 0,
+                  value: "Groove Music",
+                  anchors.top: 0,
+                  anchors.bottom: 0,
+                  verticalAlign: "center",
+                  color: "black",
+                  fontSize: 15,
+                  modelIf: "<#minimised#>"
+                }
+              ]
+            },
+            Icon{
+             
+              id: "iconitemcolumnNaN1144444555559999911111222223",
+              width: 50,
+              height: 50,
+              y: 0,
+              anchors.right: 0,
+              iconName: "ion-md-settings",
+              size: 25
+            }
+          ]
+        },
+        Rectangle{
+         
+          id: "rectangleNaN333333",
+          height: 50,
+          anchors.left: 0,
+          anchors.right: 0,
+          color: "#eb5151",
+          child: [
+            Item{
+             
+              id: "itemcolumnNaN1144444555559999911111",
+              height: 50,
+              anchors.right: 0,
+              anchors.left: 0,
+              child: [
+                Row{
+                 
+                  id: "rowitemcolumnNaN111",
+                  anchors.right: 0,
+                  anchors.left: 0,
+                  anchors.top: 0,
+                  anchors.bottom: 0,
+                  child: [
+                    Icon{
+                     
+                      id: "iconrowitemcolumnNaN1111",
+                      width: 50,
+                      height: 50,
+                      iconName: "ion-md-aperture",
+                      color: "white",
+                      size: 25
+                    },
+                    Text{
+                     
+                      id: "textrowitemcolumnNaN1113",
+                      width: "auto",
+                      height: 0,
+                      value: "Groove Music",
+                      anchors.top: 0,
+                      anchors.bottom: 0,
+                      verticalAlign: "center",
+                      color: "white",
+                      fontSize: 15,
+                      modelIf: "<#minimised#>"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}, 
+  

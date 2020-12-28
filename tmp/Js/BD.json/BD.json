@@ -1,0 +1,25 @@
+{
+	name: "bd",
+	songs: [
+		{
+			titre: "kill kill be",
+			artiste: "Dann",
+		},
+		{
+			titre: "kill kill be",
+			artiste: "Dann",
+		},
+		{
+			titre: "kill kill be",
+			artiste: "Dann",
+		},
+		{
+			titre: "kill kill be",
+			artiste: "Dann",
+		},
+		{
+			titre: "kill kill be",
+			artiste: "Dann",
+		},
+	],
+}

@@ -1,0 +1,9 @@
+Data count = 1
+
+Method increment () {
+   this.count++
+}
+
+Method getColor(i){
+	return (i%2? "white" : "#dcdcdc")
+}

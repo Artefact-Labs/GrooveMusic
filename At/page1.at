@@ -1,0 +1,62 @@
+
+Item{ 
+ 
+ 
+  id: "it0",
+  anchors.right: 0,
+  anchors.left: 0,
+  anchors.top: 0,
+  anchors.bottom: 0,
+  child: [
+    Object{
+     
+      id: "rbarit01",
+      width: "<#panelWidth#>",
+      x: 0,
+      name: "RBar",
+      anchors.top: 0,
+      anchors.bottom: 100,
+      "bind_minim": "<#minimise#>",
+      "bind_minimised": "<#full#>"
+    },
+    Item{
+     
+      id: "bottomBar",
+      height: 100,
+      anchors.bottom: 0,
+      anchors.left: 0,
+      anchors.right: 0,
+      child: [
+        Object{
+         
+          id: "bottomcontrolbarbottomBar1",
+          name: "bottomControlBar",
+          anchors.right: 0,
+          anchors.left: 0,
+          anchors.top: 0,
+          anchors.bottom: 0
+        }
+      ]
+    },
+    Item{
+     
+      id: "itemit05",
+      anchors.right: 0,
+      anchors.left: "<#panelWidth#>",
+      anchors.top: 0,
+      anchors.bottom: 100,
+      child: [
+        Object{
+         
+          id: "page2itemit051",
+          name: "page2",
+          anchors.right: 0,
+          anchors.left: 0,
+          anchors.top: 0,
+          anchors.bottom: 0
+        }
+      ]
+    }
+  ]
+}, 
+  

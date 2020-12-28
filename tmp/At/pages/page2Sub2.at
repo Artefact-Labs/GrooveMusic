@@ -1,0 +1,311 @@
+
+Item{
+  id: "NaN",
+  right: 0,
+  left: 0,
+  top: 0,
+  bottom: 0,
+  child: [
+    Column{
+      id: "NaN11111",
+      child: [
+        Rectangle{
+          id: "rectangleNaN3",
+          width: 100,
+          height: 1,
+          left: 0,
+          right: 0,
+          color: "#a5a5a5"
+        },
+        Item{
+          id: "itemNaN5",
+          width: 100,
+          height: 65,
+          left: 0,
+          right: 0,
+          child: [
+            Row{
+              id: "NaN1111111111",
+              height: "auto",
+              child: [
+                Item{
+                  id: "itemNaN3",
+                  width: 157,
+                  height: 50,
+                  child: [
+                    Row{
+                      id: "rowNaN111111",
+                      child: [
+                        Icon{
+                          id: "iconrowNaN11",
+                          width: 50,
+                          height: 50,
+                          iconName: "ion-ios-shuffle"
+                        },
+                        Text{
+                          id: "textrowNaN13",
+                          width: "auto",
+                          height: 50,
+                          value: "Shuffle all (312)",
+                          verticalAlign: "center",
+                          fontSize: 12
+                        }
+                      ],
+                      right: 0,
+                      left: 0,
+                      top: 0,
+                      bottom: 0
+                    },
+                    MouseArea{
+                      id: "mouseareaitemNaN33",
+                      right: 0,
+                      left: 0,
+                      top: 0,
+                      bottom: 0,
+                      cursor: "pointer"
+                    }
+                  ]
+                },
+                Item{
+                  id: "itemNaN322222",
+                  width: 140,
+                  height: 50,
+                  child: [
+                    Row{
+                      id: "rowNaN111111",
+                      child: [
+                        Text{
+                          id: "textrowNaN13",
+                          width: "auto",
+                          height: 50,
+                          value: "Sort by:  ",
+                          verticalAlign: "center",
+                          fontSize: 12
+                        },
+                        Item{
+                          id: "itemrowNaN1111115",
+                          width: 71,
+                          height: "auto",
+                          child: [
+                            Text{
+                              id: "textrowNaN111111311111",
+                              width: "auto",
+                              height: 50,
+                              value: "Date added",
+                              verticalAlign: "center",
+                              color: "#89b3e8",
+                              fontSize: 12
+                            },
+                            MouseArea{
+                              id: "mouseareaitemrowNaN11111153",
+                              right: 0,
+                              left: 0,
+                              top: 0,
+                              bottom: 0,
+                              cursor: "pointer"
+                            }
+                          ]
+                        }
+                      ],
+                      right: 0,
+                      left: 0,
+                      top: 0,
+                      bottom: 0
+                    },
+                    MouseArea{
+                      id: "mouseareaitemNaN33",
+                      right: 0,
+                      left: 0,
+                      top: 0,
+                      bottom: 0,
+                      cursor: "pointer"
+                    }
+                  ]
+                },
+                Item{
+                  id: "itemNaN3222223333333333",
+                  width: 92,
+                  height: 50,
+                  child: [
+                    Row{
+                      id: "rowNaN111111",
+                      child: [
+                        Text{
+                          id: "textrowNaN13",
+                          width: "auto",
+                          height: 50,
+                          value: "Genre:  ",
+                          verticalAlign: "center",
+                          fontSize: 12
+                        },
+                        Item{
+                          id: "itemrowNaN111111522222",
+                          width: 70,
+                          height: "auto",
+                          child: [
+                            Text{
+                              id: "textrowNaN111111311111",
+                              width: "auto",
+                              height: 50,
+                              value: "All genres",
+                              verticalAlign: "center",
+                              color: "#89b3e8",
+                              fontSize: 12
+                            },
+                            MouseArea{
+                              id: "mouseareaitemrowNaN11111153",
+                              right: 0,
+                              left: 0,
+                              top: 0,
+                              bottom: 0,
+                              cursor: "pointer"
+                            }
+                          ]
+                        }
+                      ],
+                      right: 0,
+                      left: 0,
+                      top: 0,
+                      bottom: 0
+                    },
+                    MouseArea{
+                      id: "mouseareaitemNaN33",
+                      right: 0,
+                      left: 0,
+                      top: 0,
+                      bottom: 0,
+                      cursor: "pointer"
+                    }
+                  ]
+                }
+              ],
+              spacing: "flex-start",
+              left: 10,
+              right: 0,
+              verticalCenter: 0
+            }
+          ]
+        },
+        Rectangle{
+          id: "rectangleNaN333333",
+          width: 100,
+          height: 1,
+          left: 0,
+          right: 0,
+          color: "#a5a5a5"
+        },
+        Item{
+          id: "itemNaN7",
+          width: 100,
+          height: 65,
+          left: 0,
+          right: 0,
+          child: [
+            Icon{
+              id: "iconitemNaN71",
+              width: 20,
+              height: 40,
+              y: 0,
+              iconName: "ion-md-folder-open",
+              left: 0
+            },
+            Column{
+              id: "columnitemNaN73",
+              width: "auto",
+              height: "auto",
+              x: 28,
+              y: 10,
+              child: [
+                Text{
+                  id: "textrowNaN1311111",
+                  width: "auto",
+                  height: 22,
+                  value: "Not finding everything?",
+                  verticalAlign: "center",
+                  fontSize: 12
+                },
+                Text{
+                  id: "textrowNaN11111131111122222",
+                  width: "auto",
+                  height: 22,
+                  value: "All genres",
+                  verticalAlign: "center",
+                  color: "#89b3e8",
+                  fontSize: 12
+                }
+              ]
+            },
+            MouseArea{
+              id: "mouseareaitemNaN75",
+              right: 0,
+              left: 0,
+              top: 0,
+              bottom: 0,
+              cursor: "pointer"
+            }
+          ]
+        },
+        Rectangle{
+          id: "rectangleNaN33333355555",
+          width: 100,
+          height: 1,
+          left: 0,
+          right: 0,
+          color: "#a5a5a5"
+        },
+        Column{
+          id: "columnitemNaN11111111111112222266666",
+          height: "auto",
+          left: 0,
+          right: 0,
+          child: [
+            Rectangle{
+              id: "rectanglecolumnitemNaN1111",
+              width: 100,
+              height: "auto",
+              left: 0,
+              right: 0,
+              color: "transparent",
+              child: [
+                Text{
+                  id: "textrectanglecolumnitemNaN11115",
+                  width: "auto",
+                  height: "auto",
+                  x: 10,
+                  y: 0,
+                  value: "<#item#>",
+                  color: "#47b5f9",
+                  fontSize: 18
+                },
+                Flow{
+                  id: "rowrectanglecolumnitemNaN11111",
+                  right: 0,
+                  left: 43,
+                  child: [
+                    Object{
+                      id: "circularartistrowrectanglecolumnitemNaN111111",
+                      width: 173,
+                      height: 189,
+                      name: "CircularArtist",
+                      modelFor: "<#7#>",
+                      bind_artistName: "<#index#>",
+											bind_artistImage: "<#'https://picsum.photos/200?random=' + index#>"
+                    }
+                  ],
+                  spacing: "space-between",
+                  position: "relative"
+                }
+              ],
+              modelFor: "<#['A','B','C','D','E','F','G','H','I','G','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']#>",
+              top: 0
+            }
+          ]
+        }
+      ],
+      right: 0,
+      left: 0,
+      top: 0,
+      height: "auto"
+    }
+  ]
+},

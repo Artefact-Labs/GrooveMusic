@@ -1,0 +1,4 @@
+Property required String img = "Resources/cover.jpg"
+Property required String titre = "Ceinture Noire"
+Property required String artist = "Dannick Stark"
+

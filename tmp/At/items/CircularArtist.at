@@ -1,0 +1,109 @@
+
+Item{ 
+ 
+ 
+  id: "NaN",
+  anchors.right: 0,
+  anchors.left: 0,
+  anchors.top: 0,
+  anchors.bottom: 0,
+  child: [
+    Column{
+     
+      id: "columnNaN3",
+      height: "auto",
+      anchors.right: 0,
+      anchors.left: 0,
+      child: [
+        Item{
+         
+          id: "itemcolumnNaN31",
+          width: 100,
+          height: 170,
+          child: [
+            Card{
+             
+              id: "cardNaN111111",
+              width: 170,
+              height: 170,
+              y: 0,
+              radius: 135,
+              anchors.horizontalCenter: 0,
+              child: [
+                NetworkImage{
+                 
+                  id: "imagecardNaN1111111",
+                  anchors.right: 0,
+                  anchors.left: 0,
+                  anchors.top: 0,
+                  anchors.bottom: 0,
+                  radius: 135,
+                  source: "<#artistImage#>"
+                },
+                Row{
+                 
+                  id: "butPanel",
+                  height: "auto",
+                  child: [
+                    Button{
+                     
+                      id: "buttonrowcardNaN11111131",
+                      width: 50,
+                      height: 50,
+                      fab: true,
+                      anchors.left: 0,
+                      backgroundColor: "#515151",
+                      color: "white",
+                      icon: "ion-ios-play",
+                      elevation: 1
+                    },
+                    Button{
+                     
+                      id: "buttonrowcardNaN1111113122",
+                      width: 50,
+                      height: 50,
+                      fab: true,
+                      backgroundColor: "#515151",
+                      color: "white",
+                      icon: "ion-ios-add",
+                      elevation: 1
+                    }
+                  ],
+                  spacing: "space-between",
+                  anchors.left: 25,
+                  anchors.right: 25,
+                  anchors.verticalCenter: 0,
+                  visible: false
+                }
+              ]
+            }
+          ],
+          anchors.left: 0,
+          anchors.right: 0
+        },
+        Text{
+         
+          id: "textcolumnNaN33",
+          width: 100,
+          height: "auto",
+          value: "<#artistName#>",
+          anchors.left: 0,
+          anchors.right: 0,
+          horizontalAlign: "center",
+          fontSize: 15,
+          fontFamily: "Century Gothic"
+        }
+      ],
+      anchors.verticalCenter: 0
+    },
+    MouseArea{
+     
+      id: "mouseareaNaN3",
+      anchors.right: 0,
+      anchors.left: 0,
+      anchors.top: 0,
+      anchors.bottom: 0
+    }
+  ]
+}, 
+  

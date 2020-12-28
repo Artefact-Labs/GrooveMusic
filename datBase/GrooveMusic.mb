@@ -1,0 +1,34 @@
+{
+  "name": "GrooveMusic",
+  "date": "Mo Feb 24 14:48:47 2020 GMT+0100",
+  "uuid": "GrooveMusic-MoFeb241448472020GMT0100",
+  "pw": "1234",
+  "description": "Database for Groove",
+  "datas": [
+    {
+      "name": "MusicList",
+      "description": "List of all avalable music",
+      "colList": [
+        {
+          "name": "name",
+          "type": "String"
+        },
+        {
+          "name": "autor",
+          "type": "String"
+        },
+        {
+          "name": "path",
+          "type": "String"
+        }
+      ],
+      "rowList": [
+        {
+          "name": "Sapé comme Jamais",
+          "autor": "Maitre Dannick",
+          "path": "https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_700KB.mp3"
+        }
+      ]
+    }
+  ]
+}

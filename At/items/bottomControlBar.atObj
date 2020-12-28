@@ -1,0 +1,36 @@
+Data audio = new Audio()
+Data duration = 0
+Data songUrl = "https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_700KB.mp3"
+Data barIcon = "ion-ios-play"
+Data loaded = false
+Data playing = false
+
+Method playSound () {
+	if(!this.playing){
+      		if(!this.loaded && this.songUrl) {
+        			this.audio = new Audio(this.songUrl);
+        			this.audio.play();
+			this.getDuration()
+			this.loaded = true
+      		}else{
+			this.audio.play();
+		}
+		this.playing = true
+		this.barIcon = "ion-ios-pause"
+	}else{
+		this.playing = false
+		this.audio.pause()
+		this.barIcon = "ion-ios-play"
+	}
+}
+
+Method pauseSound () { 
+
+}
+
+Method getDuration () { 
+	this.audio.addEventListener('loadeddata', () => {
+  	this.duration = this.audio.duration;
+  	// The duration variable now holds the duration (in seconds) of the audio clip 
+	})
+}

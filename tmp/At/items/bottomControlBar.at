@@ -1,0 +1,224 @@
+
+Rectangle{ 
+ 
+ 
+  id: "NaN",
+  color: "#7bd3c9",
+  anchors.right: 0,
+  anchors.left: 0,
+  anchors.top: 0,
+  anchors.bottom: 0,
+  child: [
+    Image{
+     
+      id: "imageNaN1",
+      width: 100,
+      x: 0,
+      anchors.top: 0,
+      anchors.bottom: 0,
+      source: "Resources/cover.jpg"
+    },
+    Column{
+     
+      id: "columnNaN5",
+      width: "auto",
+      height: "auto",
+      child: [
+        Text{
+         
+          id: "textcolumnNaN51",
+          width: "auto",
+          height: "auto",
+          anchors.left: 0,
+          value: "Sape comme Jamais",
+          color: "white",
+          fontSize: 16
+        },
+        Text{
+         
+          id: "textcolumnNaN5122222",
+          width: "auto",
+          height: "auto",
+          anchors.left: 0,
+          value: "Maitre Gims",
+          color: "white",
+          fontSize: 18
+        }
+      ],
+      anchors.left: 110,
+      anchors.verticalCenter: 0
+    },
+    Column{
+     
+      id: "columnNaN6",
+      width: 473,
+      height: "auto",
+      anchors.verticalCenter: 0,
+      anchors.horizontalCenter: 0,
+      child: [
+        Item{
+         
+          id: "itemcolumnNaN55",
+          width: 100,
+          height: 50,
+          child: [
+            Row{
+             
+              id: "rowcolumnNaN5111111",
+              width: 300,
+              height: "auto",
+              child: [
+                Button{
+                 
+                  id: "buttonrowcolumnNaN51111111177777",
+                  width: 50,
+                  height: 50,
+                  fab: true,
+                  icon: "ion-ios-repeat",
+                  fontSize: 25,
+                  backgroundColor: "transparent",
+                  hasIcon: true,
+                  dark: true,
+                  elevation: 1
+                },
+                Button{
+                 
+                  id: "buttonrowcolumnNaN5111111117777777777",
+                  width: 50,
+                  height: 50,
+                  fab: true,
+                  icon: "ion-md-skip-backward",
+                  fontSize: 25,
+                  backgroundColor: "transparent",
+                  hasIcon: true,
+                  dark: true,
+                  elevation: 1
+                },
+                Rectangle{
+                 
+                  id: "rectanglerowcolumnNaN515",
+                  width: 50,
+                  height: 50,
+                  color: "transparent",
+                  border: 2,
+                  borderColor: "white",
+                  radius: 25,
+                  child: [
+                    Button{
+                     
+                      id: "buttonrowcolumnNaN511111111777772",
+                      width: 30,
+                      height: 30,
+                      fab: true,
+                      icon: "<#barIcon#>",
+                      fontSize: 25,
+                      backgroundColor: "transparent",
+                      onlyIcon: false,
+                      hasIcon: true,
+                      dark: true,
+                      anchors.verticalCenter: 0,
+                      anchors.horizontalCenter: 0,
+                      onClicked: "<#playSound#>"
+                    }
+                  ]
+                },
+                Button{
+                 
+                  id: "buttonrowcolumnNaN511111111",
+                  width: 50,
+                  height: 50,
+                  fab: true,
+                  icon: "ion-md-skip-forward",
+                  fontSize: 25,
+                  backgroundColor: "transparent",
+                  hasIcon: true,
+                  dark: true,
+                  elevation: 1
+                },
+                Button{
+                 
+                  id: "buttonrowcolumnNaN5111111117777788888",
+                  width: 50,
+                  height: 50,
+                  fab: true,
+                  icon: "ion-ios-shuffle",
+                  fontSize: 25,
+                  backgroundColor: "transparent",
+                  hasIcon: true,
+                  dark: true,
+                  elevation: 1
+                }
+              ],
+              anchors.horizontalCenter: 0,
+              y: 0,
+              spacing: "space-between"
+            }
+          ],
+          anchors.left: 0,
+          anchors.right: 0
+        },
+        Slider{
+         
+          id: "slidercolumnNaN53",
+          width: 400,
+          height: 20,
+          anchors.left: 0,
+          anchors.right: 0,
+          min: 0,
+          max: "<#duration#>",
+          label: "<#audio.currentTime + ' : ' + duration#>",
+          inverseLabel: true,
+          model: "<#audio.currentTime#>"
+        }
+      ],
+      anchors.left: 0
+    },
+    Row{
+     
+      id: "rowNaN7",
+      width: "auto",
+      height: 0,
+      y: 25,
+      anchors.right: 15,
+      child: [
+        Icon{
+         
+          id: "iconrowNaN71",
+          width: 25,
+          height: 25,
+          anchors.right: 0,
+          color: "white",
+          iconName: "ion-ios-volume-low",
+          size: 20
+        },
+        Slider{
+         
+          id: "sliderrowNaN77",
+          width: 100,
+          height: 25
+        },
+        Icon{
+         
+          id: "iconrowNaN7122222",
+          width: 25,
+          height: 25,
+          anchors.right: 0,
+          color: "white",
+          iconName: "ion-ios-browsers",
+          size: 18
+        },
+        Icon{
+         
+          id: "iconrowNaN7133333",
+          width: 25,
+          height: 25,
+          anchors.right: 0,
+          color: "white",
+          iconName: "ion-ios-more",
+          size: 20
+        }
+      ]
+    }
+  ]
+}, 
+  

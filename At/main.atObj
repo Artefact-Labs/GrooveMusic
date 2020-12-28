@@ -1,0 +1,22 @@
+import MoonBase from '$moonbase-labs/moonBase-server'
+
+Data counter = 0 
+Method add () { this.counter++ }
+
+let kp = new MoonBase();
+
+Computed dataBase () { 
+	let uuid = 'GrooveMusic-MoFeb241448472020GMT0100';
+	let pw = '1234';
+    let moonBase = new MoonBase(uuid, pw); 
+	moonBase.connectToMoon();
+
+	moon.connected( (data) => {
+		console.log('----', JSON.staringify(data));
+		return data;
+	} );
+
+ 
+	
+}
+

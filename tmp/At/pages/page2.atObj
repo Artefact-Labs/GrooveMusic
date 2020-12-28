@@ -1,0 +1,5 @@
+Data tabModel = null
+
+Method increment () {
+   this.count++
+}
